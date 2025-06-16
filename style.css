@@ -1,0 +1,13 @@
+#background {
+  background-color: rgb(36, 161, 4);
+  width: 50vh;
+  height: 50vh;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vh;
+  height: 100vh;
+}
