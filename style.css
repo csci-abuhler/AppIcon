@@ -1,7 +1,39 @@
 #background {
   background-color: rgb(36, 161, 4);
+  width: 75vh;
+  height: 75vh;
+  border-radius: 50%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#first-line {
+  margin: 20px;
+  width: 60vh;
+  height: 5vh;
+  border: solid 25px #000;
+  border-color: #000 transparent transparent transparent;
+  border-radius: 50%/100px 100px 0 0;
+}
+
+#second-line {
+  margin: 20px;
   width: 50vh;
-  height: 50vh;
+  height: 5vh;
+  border: solid 25px #000;
+  border-color: #000 transparent transparent transparent;
+  border-radius: 50%/100px 100px 0 0;
+}
+
+#third-line {
+  margin: 20px;
+  width: 40vh;
+  height: 5vh;
+  border: solid 25px #000;
+  border-color: #000 transparent transparent transparent;
+  border-radius: 50%/100px 100px 0 0;
 }
 
 body {
